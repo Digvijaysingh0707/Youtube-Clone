@@ -1,9 +1,12 @@
 import './App.css';
+import Body from './components/Body';
+import Head from './components/Head';
 
 function App() {
   return (
     <div>
-      <p className='text-3xl'>Test</p>
+      <Head />
+      <Body />
     </div>
   );
 }
